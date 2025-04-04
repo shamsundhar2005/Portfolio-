@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - B. Shamsundar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .contact, .section {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-bottom: 2px solid #ddd;
+        }
+        .contact p, .section p {
+            margin: 5px 0;
+        }
+        .skills, .languages, .awards, .leadership {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li, .languages li, .awards li, .leadership li {
+            background: #ddd;
+            margin: 5px 0;
+            padding: 8px;
+            border-radius: 4px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>B. SHAMSUNDAR</h1>
+        <h2>Student</h2>
+
+        <div class="contact section">
+            <h3>Contact</h3>
+            <p>📞 9342536190</p>
+            <p>✉️ <a href="mailto:shamsundharbalaji2005@gmail.com">shamsundharbalaji2005@gmail.com</a></p>
+        </div>
+
+        <div class="profile section">
+            <h3>Profile</h3>
+            <p>Shamsundhar is a curious and dedicated student with a passion for computer science. Always eager to explore new technologies, thrives as a good learner, constantly seeking to develop skills and deepen knowledge in programming and technology-driven projects.</p>
+        </div>
+
+        <div class="education section">
+            <h3>Education</h3>
+            <p><strong>University</strong></p>
+            <p>2023 - 2026</p>
+            <p>B.Sc (Computer Science)</p>
+        </div>
+
+        <div class="skills section">
+            <h3>Skills</h3>
+            <ul>
+                <li><strong>Active Listening & Collaboration</strong>: Strong listener, capable of understanding diverse perspectives and building meaningful relationships.</li>
+                <li><strong>Technical Proficiency</strong>: Well-versed in program comprehension and problem-solving in software development.</li>
+                <li><strong>Event Coordination</strong>: Proven ability to organize departmental activities and events effectively.</li>
+            </ul>
+        </div>
+
+        <div class="leadership section">
+            <h3>Leadership</h3>
+            <ul>
+                <li><strong>Computer Science Department Representative (Second Year)</strong> - Organized and conducted programs.</li>
+                <li><strong>Cultural Coordinator</strong> - Actively contributed to social service initiatives and community projects.</li>
+            </ul>
+        </div>
+
+        <div class="awards section">
+            <h3>Awards & Certifications</h3>
+            <ul>
+                <li>Code Hackathon</li>
+                <li>English Communication</li>
+            </ul>
+        </div>
+
+        <div class="languages section">
+            <h3>Languages</h3>
+            <ul>
+                <li>English</li>
+                <li>Tamil</li>
+            </ul>
+        </div>
+
+        <button onclick="downloadResume()">Download Resume</button>
+    </div>
+
+    <script>
+        function downloadResume() {
+            alert("Resume download feature will be implemented soon!");
+        }
+    </script>
+
+</body>
+</html>
